@@ -1,1 +1,1 @@
-# Minerva
+# Minerva and Sentinel
