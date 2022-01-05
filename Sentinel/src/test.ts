@@ -7,12 +7,14 @@ import {
   platformBrowserDynamicTesting
 } from '@angular/platform-browser-dynamic/testing';
 
-declare const require: {
+declare const requires: {
   context(path: string, deep?: String, filter?: RegExp): {
     keys(): string[];
     <T>(id: string): T;
   };
 };
+
+
 
 // First, initialize the Angular testing environment.
 getTestBed().initTestEnvironment(
